@@ -103,6 +103,8 @@ nav ul li a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    /* light deviance from tutorial since IMHO it's best for each section to actually fill the screen */
+    height: 100vh;
 }
 .about-left-col {
     flex-basis: 50%;
