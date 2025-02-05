@@ -98,7 +98,7 @@ nav ul li a {
     cursor: pointer;
 }
 /* about start */
-#about {
+#about, #offer {
     padding: 100 0;
     display: flex;
     align-items: center;
@@ -189,5 +189,16 @@ nav ul li a {
 .course-left-col {
     flex-basis: 50%;
 }
-
+.course-text {
+    max-width: 350px;
+}
+.course-text button {
+    margin: 30px 0;
+}
 /* courses end */
+
+/* offer section start */
+#offer button {
+    margin: 30px 0;
+}
+/* offer section end */
