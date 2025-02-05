@@ -112,6 +112,12 @@ nav ul li a {
 }
 .about-right-col {
     flex-basis: 50%;
+    text-align: right;
+}
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
 }
 
 /* about end */
