@@ -78,6 +78,8 @@ p {
     top: 0;
     background:#f67c92;
     z-index: 2;
+    /* this makes the menu on and off motion smooth and slow! */
+    transition: .5s;
 }
 nav ul li {
     list-style: none;
