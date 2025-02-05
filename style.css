@@ -73,7 +73,8 @@ p {
     width: 250px;
     height: 100vh;
     position: fixed;
-    right: 0;
+    /* the below right rule is what hides the side nav bar! and then the JS brings it back w/an onclick or a hover */
+    right: -250px;
     top: 0;
     background:#f67c92;
     z-index: 2;
