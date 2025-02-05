@@ -294,3 +294,15 @@ hr {
     flex-basis: 40%;
 }
 /* footer section end */
+
+/* social icons section start */
+.social-icons {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    /* below line centers content horizontally */
+    transform: translateY(-50%);
+    z-index: 1;
+}
+/* social icons section end */
