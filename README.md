@@ -9,6 +9,8 @@ Technologies Used:
 
 - HTML
 - CSS
+  - scroll-behavior: smooth;
+    - The tutorial originally had a link to a plug in on GitHub, that you probably had to download or use via CDN. That plugin has been deprecated and the note mentioned the above snippet that exists now and does everything it used to do and more.
 
 Features:
 
