@@ -312,3 +312,44 @@ hr {
     cursor: pointer;
 }
 /* social icons section end */
+
+/* responsive section start */
+@media only screen and (max-width: 770px) {
+    #header {
+        background-image: none;
+    }
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .logo {
+        margin-top: 27px;
+        width: 70px;
+    }
+
+    .header-text {
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    #menuBtn {
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+    #menuBtn {
+        width: 40px;
+        right: 50px;
+    }
+    .common-btn {
+        padding: 10px 60px;
+       
+    }
+}
+/* responsive section end */
